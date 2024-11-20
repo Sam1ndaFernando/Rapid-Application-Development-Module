@@ -41,3 +41,14 @@ console.log(mySize);
 console.log(Size.large);
 console.log(Size.medium);
 console.log(Size.small);
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function subtract(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error("Both arguments must be numbers.");
+    }
+    return a - b;
+}
